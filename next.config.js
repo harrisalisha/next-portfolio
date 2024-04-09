@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains:['images.pexels.com'],
     },
-    experimental: { serverAction: true, }
+    //experimental: { serverAction: true, }
 }
 
 module.exports = nextConfig
