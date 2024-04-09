@@ -1,4 +1,20 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        domains:['images.pexels.com'],
+    },
+    experimental: { serverAction: true, }
+}
 
 module.exports = nextConfig
+
+//or
+//remotePatterns :[
+//        { images:
+//                {
+//                    protocol: 'https',
+//                    hostname: 'images.pexels.com',
+//                }
+//        }
+//    ]
+//}
