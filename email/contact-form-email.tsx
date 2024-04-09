@@ -15,7 +15,7 @@ export default function ContactFormEmail({message, senderEmail}: ContactEmailPro
          <Body className='bg-gray-200'>
 
             <Container>
-                <Section bg-white borderBlack my-10 px-10 py-4 rounded-md>
+                <Section className='bg-white my-10 px-10 py-4 rounded-md border-black/10'>
                     <Heading className='leading-tight'>
                         You Recieve the following Message 
                     </Heading>
